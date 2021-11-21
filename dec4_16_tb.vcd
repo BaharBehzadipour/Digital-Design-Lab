@@ -1,0 +1,187 @@
+$date
+	Mon Nov 22 02:04:51 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module dec4_16_tb $end
+$var wire 16 ! Y [0:15] $end
+$var reg 1 " Enable $end
+$var reg 4 # W [3:0] $end
+$scope module UUT $end
+$var wire 1 " Enable $end
+$var wire 4 $ W [3:0] $end
+$var wire 16 % Y [0:15] $end
+$var wire 4 & T [0:3] $end
+$scope module Dec1 $end
+$var wire 1 " Enable $end
+$var wire 2 ' W [1:0] $end
+$var reg 4 ( Y [0:3] $end
+$upscope $end
+$scope module Dec2 $end
+$var wire 1 ) Enable $end
+$var wire 2 * W [1:0] $end
+$var reg 4 + Y [0:3] $end
+$upscope $end
+$scope module Dec3 $end
+$var wire 1 , Enable $end
+$var wire 2 - W [1:0] $end
+$var reg 4 . Y [0:3] $end
+$upscope $end
+$scope module Dec4 $end
+$var wire 1 / Enable $end
+$var wire 2 0 W [1:0] $end
+$var reg 4 1 Y [0:3] $end
+$upscope $end
+$scope module Dec5 $end
+$var wire 1 2 Enable $end
+$var wire 2 3 W [1:0] $end
+$var reg 4 4 Y [0:3] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 4
+bx 3
+02
+b0 1
+bx 0
+0/
+b0 .
+bx -
+0,
+b0 +
+bx *
+0)
+b0 (
+bx '
+b0 &
+b0 %
+bx $
+bx #
+1"
+b0 !
+$end
+#20
+b0 '
+b0 *
+b0 -
+b0 0
+b0 3
+b0 #
+b0 $
+0"
+#40
+b1 *
+b1 -
+b1 0
+b1 3
+b1 #
+b1 $
+#60
+b10 *
+b10 -
+b10 0
+b10 3
+b10 #
+b10 $
+#80
+b11 *
+b11 -
+b11 0
+b11 3
+b11 #
+b11 $
+#100
+b1 '
+b0 *
+b0 -
+b0 0
+b0 3
+b100 #
+b100 $
+#120
+b1 *
+b1 -
+b1 0
+b1 3
+b101 #
+b101 $
+#140
+b10 *
+b10 -
+b10 0
+b10 3
+b110 #
+b110 $
+#160
+b11 *
+b11 -
+b11 0
+b11 3
+b111 #
+b111 $
+#180
+b10 '
+b0 *
+b0 -
+b0 0
+b0 3
+b1000 #
+b1000 $
+#200
+b1 *
+b1 -
+b1 0
+b1 3
+b1001 #
+b1001 $
+#220
+b10 *
+b10 -
+b10 0
+b10 3
+b1010 #
+b1010 $
+#240
+b11 *
+b11 -
+b11 0
+b11 3
+b1011 #
+b1011 $
+#260
+b11 '
+b0 *
+b0 -
+b0 0
+b0 3
+b1100 #
+b1100 $
+#280
+b1 *
+b1 -
+b1 0
+b1 3
+b1101 #
+b1101 $
+#300
+b10 *
+b10 -
+b10 0
+b10 3
+b1110 #
+b1110 $
+#320
+b11 *
+b11 -
+b11 0
+b11 3
+b1111 #
+b1111 $
+#340
