@@ -1,6 +1,6 @@
 module mux2_64bit(w0, w1, s, f);
-    input w0, w1, s;
-    output reg f;
+    input [63:0]w0, [63:0]w1, [63:0]s;
+    output reg [63:0]f;
 
     always @(w0, w1, s)
     begin
