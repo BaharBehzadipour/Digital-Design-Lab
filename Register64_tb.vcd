@@ -1,0 +1,37 @@
+$date
+	Sat Dec 11 23:32:46 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Register64_tb $end
+$var wire 64 ! out [63:0] $end
+$var reg 1 " Clk $end
+$var reg 1 # En $end
+$var reg 1 $ Read $end
+$var reg 64 % in [63:0] $end
+$scope module uut $end
+$var wire 1 " Clk $end
+$var wire 1 # En $end
+$var wire 1 $ Read $end
+$var wire 64 & in [63:0] $end
+$var reg 64 ' out [63:0] $end
+$var integer 32 ( k [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+x$
+x#
+x"
+bx !
+$end
+#40
