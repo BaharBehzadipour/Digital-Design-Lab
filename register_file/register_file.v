@@ -2,10 +2,10 @@
 
 module register_file (read_reg1 , read_reg2 , write_reg , write_data , reg_write , En , Clk , read_data1,read_data2);
  
-input [8:0] read_reg1;
-input [8:0] read_reg2;
+ input [7:0] read_reg1;
+ input [7:0] read_reg2;
 input [63:0] write_data;
-input [8:0] write_reg;
+ input [7:0] write_reg;
 input reg_write, En, Clk;
 output reg [63:0] read_data1;
 output reg [63:0] read_data2;
