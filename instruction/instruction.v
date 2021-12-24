@@ -9,8 +9,7 @@ module Instruction_memory (data_in, address, enable,clk,read,data_out);
     input read; //read or write
     output reg [63:0] data_out;
 
-    reg [63:0] memory[0:1024];
-    integer  k;
+    reg [63:0] memory[0:1023];
 
     always @(posedge clk)
     if (enable)
