@@ -12,9 +12,6 @@ Register64 uut (.in(in), .Read(Read), .En(En) , .Clk(Clk) , .out(out));
 initial begin
 $dumpfile("Register64_tb.vcd");
 $dumpvars(0,Register64_tb);
-#20
-if(in==out)
-    $display("OK");
   #20
   in = 8'b01011001;
   Read =1'b0;
