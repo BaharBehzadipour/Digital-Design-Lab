@@ -12,12 +12,12 @@ reg [63:0] memory;
 always @(posedge Clk)
    if (En)
    begin
-      if(!Read)
+      if(!Read) //write
       begin
          memory = in;
       end
       
-      else
+      else //read
       begin 
          out = in;
       end
