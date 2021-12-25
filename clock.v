@@ -1,7 +1,7 @@
 `default_nettype none
 `timescale 1ps/1ps
 
-module clock (clk);
+module clock (CLK);
 output reg CLK;
 
 always
