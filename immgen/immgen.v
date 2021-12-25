@@ -16,7 +16,7 @@ begin
         output1={{53{input1[31]}},input1[30:25],input1[11:7]};
     end
 
-    if (input1[6:0]==7'b1100011) //sb-type
+ if (input1[6:0]==7'b1100111) //sb-type
     begin 
         output1={{53{input1[31]}},input1[7],input1[30:25],input1[11:8]};
     end
