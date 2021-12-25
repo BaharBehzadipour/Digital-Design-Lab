@@ -9,6 +9,6 @@ begin
     CLK=0;
     #20;
     CLK=1;
-    #delay;20;
+    #20;
 
 endmodule
