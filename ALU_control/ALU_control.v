@@ -12,9 +12,11 @@ reg [11:0] a;
 always @(*)
 begin
     a = {alu_op,func3,func7};
-    if(alu_op==2'b00 || alu_op==2'b01)
-        result=4'b0000;
-  case(a)
+    if(alu_op==2'b00)
+        result=4'b0010;
+    if(alu_op==2'b01)
+        result=4'b0110;
+  casex (a)
    12'b101110000000: result=4'b0000; // &
    12'b101100000000: result=4'b0001; // |
    12'b100000000000: result=4'b0010; // +
