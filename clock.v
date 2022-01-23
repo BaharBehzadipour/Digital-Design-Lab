@@ -10,5 +10,5 @@ begin
     #20;
     CLK=1;
     #20;
-
+end
 endmodule
