@@ -1,0 +1,31 @@
+$date
+	Sat Dec 25 17:18:14 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module immgen_tb $end
+$var wire 64 ! output1 [63:0] $end
+$var reg 64 " input1 [63:0] $end
+$scope module uut $end
+$var wire 64 # input1 [63:0] $end
+$var reg 64 $ output1 [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#20
+b101000000 !
+b101000000 $
+b11000000000000011010000000000010100000000000000000100000011 "
+b11000000000000011010000000000010100000000000000000100000011 #
+#40

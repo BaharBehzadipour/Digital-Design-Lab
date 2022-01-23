@@ -1,0 +1,45 @@
+$date
+	Sat Dec 25 02:02:19 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module multiplexer_tb $end
+$var wire 64 ! data_out [63:0] $end
+$var reg 64 " data1 [63:0] $end
+$var reg 64 # data2 [63:0] $end
+$var reg 1 $ s $end
+$scope module uut $end
+$var wire 64 % data1 [63:0] $end
+$var wire 64 & data2 [63:0] $end
+$var wire 1 $ s $end
+$var wire 64 ' data_out [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+bx &
+bx %
+x$
+bx #
+bx "
+bx !
+$end
+#20
+b1010111010 !
+b1010111010 '
+1$
+b1010111010 #
+b1010111010 &
+b1001001000 "
+b1001001000 %
+#40
+b1001001000 !
+b1001001000 '
+0$
+#60
