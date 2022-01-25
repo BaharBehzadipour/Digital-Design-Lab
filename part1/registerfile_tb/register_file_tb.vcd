@@ -1,0 +1,85 @@
+$date
+	Sat Dec 25 00:06:33 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module register_file_tb $end
+$var wire 64 ! read_data2 [63:0] $end
+$var wire 64 " read_data1 [63:0] $end
+$var reg 1 # Clk $end
+$var reg 1 $ En $end
+$var reg 9 % read_reg1 [8:0] $end
+$var reg 9 & read_reg2 [8:0] $end
+$var reg 1 ' reg_write $end
+$var reg 64 ( write_data [63:0] $end
+$var reg 9 ) write_reg [8:0] $end
+$scope module uut $end
+$var wire 1 # Clk $end
+$var wire 1 $ En $end
+$var wire 9 * read_reg1 [8:0] $end
+$var wire 9 + read_reg2 [8:0] $end
+$var wire 1 ' reg_write $end
+$var wire 64 , write_data [63:0] $end
+$var wire 9 - write_reg [8:0] $end
+$var reg 64 . read_data1 [63:0] $end
+$var reg 64 / read_data2 [63:0] $end
+$var integer 32 0 k [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000000 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+x'
+bx &
+bx %
+x$
+x#
+bx "
+bx !
+$end
+#20
+0#
+0$
+0'
+b1 )
+b1 -
+b111011 (
+b111011 ,
+b1 &
+b1 +
+b10 %
+b10 *
+#40
+b111011 !
+b111011 /
+b0 "
+b0 .
+1#
+1$
+1'
+#60
+0#
+b10000000 (
+b10000000 ,
+#80
+b10000000 "
+b10000000 .
+1#
+b10 )
+b10 -
+#100
+0#
+#120
