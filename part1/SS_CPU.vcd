@@ -1,0 +1,733 @@
+$date
+	Tue Jan 25 13:38:56 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module SS_CPU $end
+$var wire 64 ! write_data [63:0] $end
+$var wire 64 " sum_data [63:0] $end
+$var wire 4 # result [3:0] $end
+$var wire 1 $ reg_write $end
+$var wire 64 % read_data2 [63:0] $end
+$var wire 64 & read_data1 [63:0] $end
+$var wire 64 ' read_data [63:0] $end
+$var wire 64 ( pcplus4 [63:0] $end
+$var wire 64 ) out_data [63:0] $end
+$var wire 64 * old_pc [63:0] $end
+$var wire 64 + new_pc [63:0] $end
+$var wire 1 , mem_write $end
+$var wire 1 - mem_to_reg $end
+$var wire 1 . mem_read $end
+$var wire 32 / instruction [31:0] $end
+$var wire 1 0 clk $end
+$var wire 1 1 branch $end
+$var wire 1 2 alu_zero $end
+$var wire 64 3 alu_src_mux_output [63:0] $end
+$var wire 1 4 alu_src $end
+$var wire 2 5 alu_op [1:0] $end
+$var wire 64 6 address [63:0] $end
+$var reg 1 7 pc_reset $end
+$var reg 1 8 pc_write $end
+$scope module add $end
+$var wire 64 9 b [63:0] $end
+$var wire 64 : sum [63:0] $end
+$var wire 64 ; carry [63:0] $end
+$var wire 64 < a [63:0] $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope begin genblk1[8] $end
+$upscope $end
+$scope begin genblk1[9] $end
+$upscope $end
+$scope begin genblk1[10] $end
+$upscope $end
+$scope begin genblk1[11] $end
+$upscope $end
+$scope begin genblk1[12] $end
+$upscope $end
+$scope begin genblk1[13] $end
+$upscope $end
+$scope begin genblk1[14] $end
+$upscope $end
+$scope begin genblk1[15] $end
+$upscope $end
+$scope begin genblk1[16] $end
+$upscope $end
+$scope begin genblk1[17] $end
+$upscope $end
+$scope begin genblk1[18] $end
+$upscope $end
+$scope begin genblk1[19] $end
+$upscope $end
+$scope begin genblk1[20] $end
+$upscope $end
+$scope begin genblk1[21] $end
+$upscope $end
+$scope begin genblk1[22] $end
+$upscope $end
+$scope begin genblk1[23] $end
+$upscope $end
+$scope begin genblk1[24] $end
+$upscope $end
+$scope begin genblk1[25] $end
+$upscope $end
+$scope begin genblk1[26] $end
+$upscope $end
+$scope begin genblk1[27] $end
+$upscope $end
+$scope begin genblk1[28] $end
+$upscope $end
+$scope begin genblk1[29] $end
+$upscope $end
+$scope begin genblk1[30] $end
+$upscope $end
+$scope begin genblk1[31] $end
+$upscope $end
+$scope begin genblk1[32] $end
+$upscope $end
+$scope begin genblk1[33] $end
+$upscope $end
+$scope begin genblk1[34] $end
+$upscope $end
+$scope begin genblk1[35] $end
+$upscope $end
+$scope begin genblk1[36] $end
+$upscope $end
+$scope begin genblk1[37] $end
+$upscope $end
+$scope begin genblk1[38] $end
+$upscope $end
+$scope begin genblk1[39] $end
+$upscope $end
+$scope begin genblk1[40] $end
+$upscope $end
+$scope begin genblk1[41] $end
+$upscope $end
+$scope begin genblk1[42] $end
+$upscope $end
+$scope begin genblk1[43] $end
+$upscope $end
+$scope begin genblk1[44] $end
+$upscope $end
+$scope begin genblk1[45] $end
+$upscope $end
+$scope begin genblk1[46] $end
+$upscope $end
+$scope begin genblk1[47] $end
+$upscope $end
+$scope begin genblk1[48] $end
+$upscope $end
+$scope begin genblk1[49] $end
+$upscope $end
+$scope begin genblk1[50] $end
+$upscope $end
+$scope begin genblk1[51] $end
+$upscope $end
+$scope begin genblk1[52] $end
+$upscope $end
+$scope begin genblk1[53] $end
+$upscope $end
+$scope begin genblk1[54] $end
+$upscope $end
+$scope begin genblk1[55] $end
+$upscope $end
+$scope begin genblk1[56] $end
+$upscope $end
+$scope begin genblk1[57] $end
+$upscope $end
+$scope begin genblk1[58] $end
+$upscope $end
+$scope begin genblk1[59] $end
+$upscope $end
+$scope begin genblk1[60] $end
+$upscope $end
+$scope begin genblk1[61] $end
+$upscope $end
+$scope begin genblk1[62] $end
+$upscope $end
+$scope begin genblk1[63] $end
+$upscope $end
+$upscope $end
+$scope module add2 $end
+$var wire 64 = sum [63:0] $end
+$var wire 64 > carry [63:0] $end
+$var wire 64 ? b [63:0] $end
+$var wire 64 @ a [63:0] $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope begin genblk1[8] $end
+$upscope $end
+$scope begin genblk1[9] $end
+$upscope $end
+$scope begin genblk1[10] $end
+$upscope $end
+$scope begin genblk1[11] $end
+$upscope $end
+$scope begin genblk1[12] $end
+$upscope $end
+$scope begin genblk1[13] $end
+$upscope $end
+$scope begin genblk1[14] $end
+$upscope $end
+$scope begin genblk1[15] $end
+$upscope $end
+$scope begin genblk1[16] $end
+$upscope $end
+$scope begin genblk1[17] $end
+$upscope $end
+$scope begin genblk1[18] $end
+$upscope $end
+$scope begin genblk1[19] $end
+$upscope $end
+$scope begin genblk1[20] $end
+$upscope $end
+$scope begin genblk1[21] $end
+$upscope $end
+$scope begin genblk1[22] $end
+$upscope $end
+$scope begin genblk1[23] $end
+$upscope $end
+$scope begin genblk1[24] $end
+$upscope $end
+$scope begin genblk1[25] $end
+$upscope $end
+$scope begin genblk1[26] $end
+$upscope $end
+$scope begin genblk1[27] $end
+$upscope $end
+$scope begin genblk1[28] $end
+$upscope $end
+$scope begin genblk1[29] $end
+$upscope $end
+$scope begin genblk1[30] $end
+$upscope $end
+$scope begin genblk1[31] $end
+$upscope $end
+$scope begin genblk1[32] $end
+$upscope $end
+$scope begin genblk1[33] $end
+$upscope $end
+$scope begin genblk1[34] $end
+$upscope $end
+$scope begin genblk1[35] $end
+$upscope $end
+$scope begin genblk1[36] $end
+$upscope $end
+$scope begin genblk1[37] $end
+$upscope $end
+$scope begin genblk1[38] $end
+$upscope $end
+$scope begin genblk1[39] $end
+$upscope $end
+$scope begin genblk1[40] $end
+$upscope $end
+$scope begin genblk1[41] $end
+$upscope $end
+$scope begin genblk1[42] $end
+$upscope $end
+$scope begin genblk1[43] $end
+$upscope $end
+$scope begin genblk1[44] $end
+$upscope $end
+$scope begin genblk1[45] $end
+$upscope $end
+$scope begin genblk1[46] $end
+$upscope $end
+$scope begin genblk1[47] $end
+$upscope $end
+$scope begin genblk1[48] $end
+$upscope $end
+$scope begin genblk1[49] $end
+$upscope $end
+$scope begin genblk1[50] $end
+$upscope $end
+$scope begin genblk1[51] $end
+$upscope $end
+$scope begin genblk1[52] $end
+$upscope $end
+$scope begin genblk1[53] $end
+$upscope $end
+$scope begin genblk1[54] $end
+$upscope $end
+$scope begin genblk1[55] $end
+$upscope $end
+$scope begin genblk1[56] $end
+$upscope $end
+$scope begin genblk1[57] $end
+$upscope $end
+$scope begin genblk1[58] $end
+$upscope $end
+$scope begin genblk1[59] $end
+$upscope $end
+$scope begin genblk1[60] $end
+$upscope $end
+$scope begin genblk1[61] $end
+$upscope $end
+$scope begin genblk1[62] $end
+$upscope $end
+$scope begin genblk1[63] $end
+$upscope $end
+$upscope $end
+$scope module alu $end
+$var wire 64 A in2 [63:0] $end
+$var wire 64 B in1 [63:0] $end
+$var wire 4 C alu_c [3:0] $end
+$var reg 64 D result [63:0] $end
+$var reg 1 2 zero $end
+$upscope $end
+$scope module aluc $end
+$var wire 3 E func3 [2:0] $end
+$var wire 7 F func7 [6:0] $end
+$var wire 2 G alu_op [1:0] $end
+$var reg 12 H a [11:0] $end
+$var reg 4 I result [3:0] $end
+$upscope $end
+$scope module cu $end
+$var wire 7 J opcode [6:0] $end
+$var reg 2 K alu_op [1:0] $end
+$var reg 1 4 alu_src $end
+$var reg 1 1 branch $end
+$var reg 1 . mem_read $end
+$var reg 1 - mem_to_reg $end
+$var reg 1 , mem_write $end
+$var reg 1 $ reg_write $end
+$upscope $end
+$scope module instruction_memory $end
+$var wire 32 L data_in [31:0] $end
+$var wire 1 7 enable $end
+$var wire 1 M read $end
+$var wire 64 N address [63:0] $end
+$var reg 32 O data_out [31:0] $end
+$upscope $end
+$scope module mux $end
+$var wire 64 P data1 [63:0] $end
+$var wire 64 Q data2 [63:0] $end
+$var wire 1 R s $end
+$var reg 64 S data_out [63:0] $end
+$var integer 32 T i [31:0] $end
+$upscope $end
+$scope module mux2 $end
+$var wire 1 4 s $end
+$var wire 64 U data_out [63:0] $end
+$var wire 64 V data2 [63:0] $end
+$var wire 64 W data1 [63:0] $end
+$upscope $end
+$scope module mux3 $end
+$var wire 64 X data2 [63:0] $end
+$var wire 1 - s $end
+$var wire 64 Y data_out [63:0] $end
+$var wire 64 Z data1 [63:0] $end
+$upscope $end
+$scope module myclock $end
+$var reg 1 0 CLK $end
+$upscope $end
+$scope module myimmgen $end
+$var wire 32 [ input1 [31:0] $end
+$var reg 64 \ output1 [63:0] $end
+$upscope $end
+$scope module pc $end
+$var wire 1 0 Clk $end
+$var wire 1 7 En $end
+$var wire 1 8 Read $end
+$var wire 64 ] in [63:0] $end
+$var reg 64 ^ memory [63:0] $end
+$var reg 64 _ out [63:0] $end
+$var integer 32 ` i [31:0] $end
+$upscope $end
+$scope module regfile $end
+$var wire 1 0 Clk $end
+$var wire 1 7 En $end
+$var wire 5 a read_reg1 [4:0] $end
+$var wire 5 b read_reg2 [4:0] $end
+$var wire 1 $ reg_write $end
+$var wire 64 c write_data [63:0] $end
+$var wire 5 d write_reg [4:0] $end
+$var reg 64 e read_data1 [63:0] $end
+$var reg 64 f read_data2 [63:0] $end
+$var integer 32 g k [31:0] $end
+$upscope $end
+$scope module uut $end
+$var wire 1 0 Clk $end
+$var wire 1 7 En $end
+$var wire 64 h address [63:0] $end
+$var wire 1 . memRead $end
+$var wire 1 , memWrite $end
+$var wire 64 i write_data [63:0] $end
+$var reg 64 j read_data [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx j
+bx i
+bx h
+b1000000 g
+bx f
+bx e
+bx d
+bx c
+bx b
+bx a
+b0 `
+bx _
+bx ^
+b0 ]
+bx \
+bx [
+bx Z
+bx Y
+bx X
+bx W
+bx V
+bx U
+b1 T
+b0 S
+xR
+bx Q
+bx P
+bx O
+bx N
+1M
+b0 L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx00 ;
+bx :
+b100 9
+18
+17
+bx 6
+bx 5
+x4
+bx 3
+x2
+x1
+00
+bx /
+x.
+x-
+x,
+b0 +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+x$
+bx #
+bx "
+bx !
+$end
+#20
+b0 ;
+b0 "
+b0 =
+b0 Q
+0R
+b101 T
+b100 +
+b100 S
+b100 ]
+b0 3
+b0 A
+b0 U
+b10 #
+b10 C
+b10 I
+b100000000 H
+b0 5
+b0 G
+b0 K
+1$
+14
+0,
+1-
+1.
+01
+b0 >
+b100 (
+b100 :
+b100 P
+b0 )
+b0 @
+b0 V
+b0 \
+b0 F
+b10 E
+b10100 d
+b0 b
+b1010 a
+b11 J
+b1010010101000000011 /
+b1010010101000000011 O
+b1010010101000000011 [
+b1 `
+b0 *
+b0 <
+b0 ?
+b0 N
+b0 _
+10
+#40
+00
+#60
+b100 ;
+b111 T
+b1000 +
+b1000 S
+b1000 ]
+b100 "
+b100 =
+b100 Q
+b1000 (
+b1000 :
+b1000 P
+b100000000001 H
+b10 5
+b10 G
+b10 K
+04
+0-
+0.
+bx !
+bx Y
+bx c
+b1 F
+b0 E
+b10101 d
+b10100 b
+b0 a
+b110011 J
+12
+b0 6
+b0 D
+b0 X
+b0 h
+b1010000000000101010110011 /
+b1010000000000101010110011 O
+b1010000000000101010110011 [
+b0 %
+b0 W
+b0 f
+b0 i
+b0 &
+b0 B
+b0 e
+b10 `
+b100 *
+b100 <
+b100 ?
+b100 N
+b100 _
+10
+#80
+00
+#100
+b0 ;
+b1010 T
+b1100 +
+b1100 S
+b1100 ]
+b1000 "
+b1000 =
+b1000 Q
+b1100 (
+b1100 :
+b1100 P
+b100000100001 H
+b100001 F
+b110 d
+b10101 a
+x2
+bx 6
+bx D
+bx X
+bx h
+b100001010010101000001100110011 /
+b100001010010101000001100110011 O
+b100001010010101000001100110011 [
+bx 3
+bx A
+bx U
+b11 `
+b1000 *
+b1000 <
+b1000 ?
+b1000 N
+b1000 _
+bx %
+bx W
+bx f
+bx i
+10
+#120
+00
+#140
+b1000 >
+b1100 ;
+b1111 T
+b10000 +
+b10000 S
+b10000 ]
+b1000 3
+b1000 A
+b1000 U
+b10100 "
+b10100 =
+b10100 Q
+b10000 (
+b10000 :
+b10000 P
+b100000001 H
+b0 5
+b0 G
+b0 K
+0$
+14
+1,
+x-
+b1000 )
+b1000 @
+b1000 V
+b1000 \
+b1 F
+b10 E
+b1000 d
+b1010 a
+b100011 J
+b1010001010010010000100011 /
+b1010001010010010000100011 O
+b1010001010010010000100011 [
+bx &
+bx B
+bx e
+b100 `
+b1100 *
+b1100 <
+b1100 ?
+b1100 N
+b1100 _
+10
+#160
+00
+#180
+b0 ;
+b10010 T
+b10100 +
+b10100 S
+b10100 ]
+b0 >
+b11000 "
+b11000 =
+b11000 Q
+b10100 (
+b10100 :
+b10100 P
+b1111111 H
+b1111111 F
+b0 E
+b11100 d
+b10101 b
+b10100 a
+b1100111 J
+b11111111010110100000111001100111 /
+b11111111010110100000111001100111 O
+b11111111010110100000111001100111 [
+02
+b1000 6
+b1000 D
+b1000 X
+b1000 h
+b101 `
+b10000 *
+b10000 <
+b10000 ?
+b10000 N
+b10000 _
+b0 &
+b0 B
+b0 e
+10
+#200
+00
+#220
+b100 ;
+b10100 T
+b11000 +
+b11000 S
+b11000 ]
+b11100 "
+b11100 =
+b11100 Q
+b11000 (
+b11000 :
+b11000 P
+b0xxxxxxxxxx H
+bx F
+bx E
+bx d
+bx b
+bx a
+bx J
+x2
+bx 6
+bx D
+bx X
+bx h
+bx /
+bx O
+bx [
+bx &
+bx B
+bx e
+b110 `
+b10100 *
+b10100 <
+b10100 ?
+b10100 N
+b10100 _
+10
